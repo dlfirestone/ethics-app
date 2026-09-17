@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import EthiclyShared
 
 @main
 struct EthiclyApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  init() {
+    QuoteManager.shared.recordFirstLaunchIfNeeded()
+  }
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

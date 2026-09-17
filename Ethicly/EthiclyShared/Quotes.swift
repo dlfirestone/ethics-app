@@ -25,13 +25,13 @@ public let quoteArray: [Quote] = [
   Quote(
     text: "Do not accuse anyone for no reason--when they have done you no harm",
     author: nil,
-    source: "Proverbs 3:30"
+    source: "Proverbs 3:30",
     year: nil
   ),
   Quote(
     text: "Act only according to that maxim whereby you can at the same time will that it should become a universal law,",
     author: "Immanuel Kant",
-    source: "Groundwork of the Metaphysics of Morals"
+    source: "Groundwork of the Metaphysics of Morals",
     year: 1785
   ),
   Quote(

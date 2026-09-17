@@ -6,17 +6,20 @@
 //
 
 import SwiftUI
+import EthiclyShared
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+  let quote = QuoteManager.shared.currentQuote()
+  
+  var body: some View {
+    VStack {
+      Image(systemName: "globe")
+        .imageScale(.large)
+        .foregroundStyle(.tint)
+      Text("Hello, world!")
     }
+    .padding()
+  }
 }
 
 #Preview {
