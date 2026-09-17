@@ -105,6 +105,13 @@
 			);
 			target = A35AA349305B69640037F857 /* EthiclyWidgetExtension */;
 		};
+		A35AA38E305BB47C0037F857 /* Exceptions for "EthiclyShared" folder in "EthiclyShared" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Untitled.swift,
+			);
+			target = A35AA36A305B6A150037F857 /* EthiclyShared */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -133,6 +140,9 @@
 		};
 		A35AA36C305B6A150037F857 /* EthiclyShared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A35AA38E305BB47C0037F857 /* Exceptions for "EthiclyShared" folder in "EthiclyShared" target */,
+			);
 			path = EthiclyShared;
 			sourceTree = "<group>";
 		};

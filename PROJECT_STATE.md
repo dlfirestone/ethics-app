@@ -31,6 +31,11 @@
   - Create `Quote` struct with `text` and `author` properties
   - Create array of 50 inspirational quotes
   - Make accessible to both app and widget targets
+ - [x] **Step 5**: Build Quote model and static quote array in shared framework
+  - Create `Quote` struct with `text`, `author` (optional), and `source` (optional) properties
+  - Create array of 50 inspirational quotes
+  - Make accessible to both app and widget targets
+  - Note: `author` and `source` fields are `String?` (optional) where unknown
 
 - [ ] **Step 6**: Build QuoteManager utility in shared framework
   - Track first-launch date in shared UserDefaults (using AppGroup)
