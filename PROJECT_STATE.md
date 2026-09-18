@@ -49,6 +49,11 @@ QuoteManager# Ethicly App - Project Progress Tracker
   - Display author attribution
   - Use `QuoteManager` from shared framework
 
+- [ ] **Step 8a**: Add the widget as a user-visible feature to the main app plan
+  - Include the widget in the app’s feature checklist
+  - Keep widget work tracked alongside the main app work
+  - Ensure the widget and main app remain aligned on the daily quote experience
+
 - [ ] **Step 9**: Test on simulator
   - Test quote rotation with different dates
   - Test widget refresh at midnight

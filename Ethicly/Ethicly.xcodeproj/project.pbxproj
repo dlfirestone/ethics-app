@@ -13,6 +13,7 @@
 		A35AA376305B6A160037F857 /* EthiclyShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35AA36B305B6A150037F857 /* EthiclyShared.framework */; };
 		A35AA380305B6A160037F857 /* EthiclyShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35AA36B305B6A150037F857 /* EthiclyShared.framework */; };
 		A35AA381305B6A160037F857 /* EthiclyShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A35AA36B305B6A150037F857 /* EthiclyShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3D8352E305CB4CF00C7E9CE /* EthiclyShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A35AA36B305B6A150037F857 /* EthiclyShared.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,13 @@
 			remoteInfo = Ethicly;
 		};
 		A35AA37E305B6A160037F857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A35AA314305B66730037F857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35AA36A305B6A150037F857;
+			remoteInfo = EthiclyShared;
+		};
+		A3D83530305CB4CF00C7E9CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A35AA314305B66730037F857 /* Project object */;
 			proxyType = 1;
@@ -105,13 +113,6 @@
 			);
 			target = A35AA349305B69640037F857 /* EthiclyWidgetExtension */;
 		};
-		A35AA38E305BB47C0037F857 /* Exceptions for "EthiclyShared" folder in "EthiclyShared" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				QuoteManager.swift,
-			);
-			target = A35AA36A305B6A150037F857 /* EthiclyShared */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -140,9 +141,6 @@
 		};
 		A35AA36C305B6A150037F857 /* EthiclyShared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A35AA38E305BB47C0037F857 /* Exceptions for "EthiclyShared" folder in "EthiclyShared" target */,
-			);
 			path = EthiclyShared;
 			sourceTree = "<group>";
 		};
@@ -182,6 +180,7 @@
 			files = (
 				A35AA34F305B69640037F857 /* SwiftUI.framework in Frameworks */,
 				A35AA34D305B69640037F857 /* WidgetKit.framework in Frameworks */,
+				A3D8352E305CB4CF00C7E9CE /* EthiclyShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +335,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A3D83531305CB4CF00C7E9CE /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				A35AA350305B69640037F857 /* EthiclyWidget */,
@@ -571,6 +571,11 @@
 			isa = PBXTargetDependency;
 			target = A35AA36A305B6A150037F857 /* EthiclyShared */;
 			targetProxy = A35AA37E305B6A160037F857 /* PBXContainerItemProxy */;
+		};
+		A3D83531305CB4CF00C7E9CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A35AA36A305B6A150037F857 /* EthiclyShared */;
+			targetProxy = A3D83530305CB4CF00C7E9CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
